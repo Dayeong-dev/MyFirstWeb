@@ -1,0 +1,14 @@
+1. 와이어프레임
+2. 화면 설계
+3. 구현
+
+3페이지의 사이트 구현
+- Main 화면
+- Sub 화면(1페이지 이상)
+- Event 화면(Main 화면과 차별점이 있는 화면)
+
+사용 권장 태그
+- Flex or Grid
+- float or position
+- Form(필수)
+- Table(필수)

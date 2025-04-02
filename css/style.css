@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+    min-width: 1000px;
+}
+
+.box {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+/* 헤더 */
+header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header .logo {
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+
+header nav ul li {
+    float: left;
+    margin-left: 16px;
+
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+header nav ul li button {
+    color: #666;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 8px;
+    cursor: pointer;
+
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* 메인 이미지 */
+#main_image {
+    width: 100%;
+    height: 774px;
+}
+
+#main_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* 메인 컨텐츠 */
+main {
+    width: 100%;
+    padding: 40px 60px;
+}
+
+main .mainSection {
+    width: 100%;
+}
+
+main .mainSection .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+main .mainSection .header h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+main .mainSection .header a {
+    color: #666;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* 메인 - 영화 Top 5 */
+main .movie_top_5 {
+    margin-bottom: 40px;
+}
+
+main .movie_top_5 ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 16px;
+}
+
+main .movie_top_5 ul li img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px #666;
+}
+
+main .movie_top_5 ul li h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+main .movie_top_5 ul li p {
+    color: #666;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* 메인 - 이벤트 */
+main .event ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+}
+
+main .event ul li img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+main .event ul li h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+main .event ul li p {
+    color: #666;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* 푸터 */
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #253350;
+}
+
+footer p {
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 500;
+
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+}
